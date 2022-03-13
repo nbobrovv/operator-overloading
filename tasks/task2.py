@@ -12,6 +12,7 @@
 
 
 class BitString:
+    
     def __init__(self, x):
         # Инициализация
         self.size = x
