@@ -12,10 +12,9 @@
 
 
 class BitString:
-    def __init__(self, x, other=10):
+    def __init__(self, x):
         # Инициализация
         self.size = x
-        self.other = other
         self.x = [0] * self.size
 
     def set(self, x):
